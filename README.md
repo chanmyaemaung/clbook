@@ -1,4 +1,4 @@
-# CLBOOK - Backend
+# CLBOOK (Microservice API)
 
 ## Installation
 
