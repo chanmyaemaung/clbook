@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - backend
+
+volumes:
+  mongodb_data:
+    driver: local
+
+networks:
+  backend:
+    driver: bridge
